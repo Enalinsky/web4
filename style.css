@@ -1,76 +1,27 @@
-html,body
-{
+html,
+body {
   background-color: #ffdab9;
 }
-#logo 
-{
-width: 100px;
-height: 100px;
-margin-left: 500px;
-float:left;
-margin-right: 300px;
-}
-#line
-{
-  background-color: #c2e69e;
-  width: 1920px;
-  margin: 8px;
-  height: 100px;
-}
-#pervtab
-{
-  background-color: #c2e69e;
-  width: 960px;
-  margin: 50px;
-  margin-left: 480px;
-  height: 70px;
-}
-p{
- display:inline-block;
- float: left;
- margin-right: 150px;
- text-align: center;
-} 
-#secondtb
-{
-  background-color: #c2e69e;
-  width: 960px;
-  margin: 75px;
-  margin-left: 480px;
-  height: 615px;
-}
-#thirdtb
-{
-  background-color: #c2e69e;
-  width: 960px;
-  margin: 50px;
-  margin-left: 480px;
-  height: 170px;
-}
-#fourtb
-{
-   background-color: #c2e69e;
-  width: 960px;
-  margin: 50px;
-  margin-left: 480px;
-  height: 470px;
+#line {
+  font-size: 40px;
+  color: #008000;
 }
 table {
-   border: 1px solid grey;
-  width: 100%;
-  height: 170px;
+  border: 1px solid #228b22;
+  background: #99cc33;
 }
 th {
-   border: 1px solid grey;
+  text-align: center;
+  border: 1px solid #1e9e6d;
 }
 td {
-   border: 1px solid grey;
+  text-align: center;
+  border: 1px solid #16a16c;
+  font-size: 0.8em;
 }
-.footer
-{
-background-color: #c2e69e;
-width:100%;
-height: 50px;
-margin: 0 auto;
-margin-top: 50px;
+tr.even {
+  background: #ffff00;
+}
+.footer {
+  color: #008000;
 }
